@@ -1,0 +1,41 @@
+.button-portfolio {
+    display: inline-block;
+    border: 1px solid transparent;
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-txt);
+    background-color: var(--secondary-light-bg);
+    border-radius: 4px;
+    padding: 6px 22px;
+    transition: color var(--transition-duration) var(--transition-timing-function), background-color var(--transition-duration) var(--transition-timing-function), box-shadow var(--transition-duration) var(--transition-timing-function);
+
+    &:hover,
+    &:focus {
+        color: var(--white-txt);
+        background-color: var(--button-bg);
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    }
+}
+
+.portfolio__buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button__form {
+    margin-top: 30px;
+    padding: 10px 55px;
+    
+    @extend %hero__button;
+
+    &:hover,
+    &:focus {
+        background-color: #188ce8;
+    }
+}
+

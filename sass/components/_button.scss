@@ -1,0 +1,15 @@
+.button {
+   @extend %button;
+}
+
+//Button hero
+
+.hero__button {
+    @extend %hero__button;
+
+    &:hover,
+    &:focus {
+        background-color: #188ce8;
+    }
+}
+

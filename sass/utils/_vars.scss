@@ -1,0 +1,20 @@
+:root {
+    /* Головні шрифти */
+    --main-font: Roboto;
+    --secondary-font: Raleway;
+    /* Колір тексту */
+    --primary-txt: #212121;
+    --secondary-txt: #757575;
+    --accent-txt: #2196f3;
+    --white-txt: #ffffff;
+    --icon-color: #AFB1B8;
+    /* Колір фону */
+    --primary-light-bg: #e5e5e5;
+    --header-bg: #ffffff;
+    --secondary-light-bg: #f5f4fa;
+    --primary-dark-bg: #2f303a;
+    --button-bg: #2196f3;
+
+    --transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-duration: 250ms;
+}
